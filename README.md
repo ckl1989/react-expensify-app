@@ -38,3 +38,5 @@ Concepts demonstrated:
 * Configure express server to use heroku port when running on heroku or by default port 3000 when not running on heroku
 * Add require heroku express server start and postbuild scripts to build and run production version of application
 * Separate dev depenendancies from general dependancies
+* Separate built folders to a dist with webpack configs
+* Numeral.js to format numbers
