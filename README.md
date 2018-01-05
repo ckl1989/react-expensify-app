@@ -30,3 +30,5 @@ Concepts demonstrated:
 * MapDispatchtoProps abstracts dispatcher functions away from original component for cleaner code and easier testing
 * Jest beforeEach lifecycle method to set up each test before run with common logic
 * Enzyme setProps to set props on component for testing components with different props
+* Webpack production build environment optimization
+* Only create sourcemaps when dev tools are opened up to optimization distribution
