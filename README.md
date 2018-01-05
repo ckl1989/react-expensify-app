@@ -34,3 +34,4 @@ Concepts demonstrated:
 * Only create sourcemaps when dev tools are opened up to optimization distribution
 * extract-text-webpack-plugin to extract css from bundle.js to own file to improve performance
 * use css and sass loader source maps so dev tools can track css to originating file
+* Simple express server to serve up public files. Will also serve index.html with the tagged bundle.js to make url page calls work.
