@@ -32,3 +32,5 @@ Concepts demonstrated:
 * Enzyme setProps to set props on component for testing components with different props
 * Webpack production build environment optimization
 * Only create sourcemaps when dev tools are opened up to optimization distribution
+* extract-text-webpack-plugin to extract css from bundle.js to own file to improve performance
+* use css and sass loader source maps so dev tools can track css to originating file
