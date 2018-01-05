@@ -35,3 +35,5 @@ Concepts demonstrated:
 * extract-text-webpack-plugin to extract css from bundle.js to own file to improve performance
 * use css and sass loader source maps so dev tools can track css to originating file
 * Simple express server to serve up public files. Will also serve index.html with the tagged bundle.js to make url page calls work.
+* Configure express server to use heroku port when running on heroku or by default port 3000 when not running on heroku
+* Add require heroku express server start and postbuild scripts to build and run production version of application
