@@ -1,25 +1,32 @@
-# Indecision App from React Web Developer Course [Tutorial](https://www.udemy.com/react-2nd-edition/v4)
-React App that allows users to input actions and have the computer decide which action to take.
+# Expensify App from React Web Developer Course [Tutorial](https://www.udemy.com/react-2nd-edition/v4)
+React App that allows users to see and add expenses;
 
 Concepts demonstrated:
-* Function Components
-* Stateful Components
-* Saving and fetching from local storage
-* Component Lifecycle methods
-* Passing parent component methods into child components
-* Webpack confguration for component bundling
-* Webpack-dev-server for change watch, live reload, and local serving to browser
-* Babel with env and react presets to transpile es6 to es5
-* Babel transform-class-properties plugin to transform modern class syntax
-* React-Modal third party component using dynamic content
-* Scss for styling using variables
-* SCSS partials
-* Webpack sass-loader and node-sass to transpile and bundle styles
-* Uses rem instead of pixels for styling for better accessability situations
-* Scss Block element modifier (ie header__title): looks for title somewhere inside .header element
-* Normalize.css to reset css for fresh base styling for cross browser styling
-* SCSS darken() function to darken a given color by a certain percentage;
-* BEM (-- for modifier of element && __ for element inside element)
-* Transition in and out modal from opacity 0 to 1 over 200ms
-* Mobile viewport optimization by using meta viewport tag with width matching device width and initial scale 1
-* Media queries: min-width=apply styles for widths greater than specified. Spacing and column layout toggling.
+* React-Router-DOM for client side routing
+* Webpack historyApiFallback devServer config to always serve up index.html and enable client side routing
+* Route "exact" property?
+* React-Router-Dom Switch? 
+* NavLink for active class styling
+* React-Redux to maintain complex state
+* Redux store to manage state
+* Redux actions to affect store state
+* Redux store subscribe = change listener?
+* ES6 object destructuring to keep code clean. Includes default values and aliasing. 
+* Redux reducer to define how actions affect state
+* Redux combineReducers to allow for separate reducers to promote cleaner code
+* Babel transform object rest spread - spread operator for objects
+* React-Redux connect and Provider apis to connect components to redux and create higher order components
+* Controlled Inputs that give us greater control of input values and connect them directly to the store
+* Regex to value expense amount is correct format
+* React-moment for better date formatting - time utility library. Also using for date manipulation API for easier testing
+* React Dates single date picker for calendar date selection
+* Jest for automated tests
+* Enzyme for rendering components in tests (shallow for shallow rendering)
+* Snapshot testing for testing components
+* Mocking moment library to ensure moment's default time stays consistent so that snapshot testing can pass
+* Enzyme wrapper.state to get state of component
+* Test spies to mock function
+* Enzyme access props of a component's children
+* MapDispatchtoProps abstracts dispatcher functions away from original component for cleaner code and easier testing
+* Jest beforeEach lifecycle method to set up each test before run with common logic
+* Enzyme setProps to set props on component for testing components with different props
