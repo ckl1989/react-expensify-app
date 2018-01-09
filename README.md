@@ -40,3 +40,13 @@ Concepts demonstrated:
 * Separate dev depenendancies from general dependancies
 * Separate built folders to a dist with webpack configs
 * Numeral.js to format numbers
+* Firebase for data persistance
+* Firebase once() to poll db once for data
+* Firebase on() for any changes in db to be pushed via supplied callback
+* Redux thunk - dispatch functions to use firebase with redux
+* Redux-mock-store to mock store for testing
+* Async jest tests with done()
+* npm cross-evn maniupulate script to set environment variable
+* Created separate test db from firebase
+* NPM dotenv loads environment variables for easy use
+* webpack.DefinePlugin to pass down env variable values into clientside code
